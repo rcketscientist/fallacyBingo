@@ -58,7 +58,7 @@ const shuffle = () => {
 }
 
 const tiles = shuffle().slice(0,24);
-tiles.splice(12, 0, { name: "Free", desc: "Probably won't even need this..."});
+tiles.splice(12, 0, { name: "Copy that, but", desc: "Yah, this one's free..."});
 
 const App = () => {
   const [state, setState] = useState({ checked: {12: true}, won: false});
